@@ -6,7 +6,7 @@ public class Main {
         //System.out.println(getFactorial(5));
         //getPrimeNumbers();
         //Calculator.calculator();
-        //restoreMath("2? + 1?1 = 140");
+        restoreMathEquality("2? + 1?1 = 140");
     }
     static int getTriangleNumber(int number) {
         double result = number * 0.5 * (number + 1);
@@ -21,7 +21,7 @@ public class Main {
     }
     static void getPrimeNumbers() {
         for (int i = 2; i <= 1000; i++) {
-            if ( isPrime(i)) {
+            if (isPrime(i)) {
                 System.out.print(i + " ");
             }
         }
@@ -40,34 +40,32 @@ public class Main {
         }
         return true;
     }
-    static void restoreMath (String example) {
-        var result = example.split("=");
-        var end = Integer.parseInt(result[1].trim());
-        var mathDoing = result[0].replace("+","!").split("!");
-        String firs = mathDoing[0].trim();
-        String second = mathDoing[1].trim();
+    static void restoreMathEquality (String example) {
+        String[] mathEquality = example.split("=");
+        int resultEquality = Integer.parseInt(mathEquality[1].trim());
+        String[] componentsEquality = mathEquality[0].split(" ");
+        String firs = componentsEquality[0];
+        String second = componentsEquality[2];
         for (int i = 0; i < 10; i++) {
-            int one = getValueInsteadOfQuestion(firs,i);
+            int oneValue = getValueInsteadOfQuestion(firs,i);
             if (second.contains("?")) {
                 for (int j = 0; j < 10; j++) {
-                    int two = getValueInsteadOfQuestion(second,j);
-                    if (one + two == end) {
-                        System.out.println(one + " + " + two + " = " + end);
+                    int secondValue = getValueInsteadOfQuestion(second,j);
+                    if (oneValue + secondValue == resultEquality) {
+                        System.out.println(oneValue + " + " + secondValue + " = " + resultEquality);
                         return;
                     }
                 }
             } else {
-                int secondItem = Integer.parseInt(second);
-                if (one + secondItem == end) {
-                    System.out.println(one + " + " + secondItem + " = " + end);
+                int secondValue = Integer.parseInt(second);
+                if (oneValue + secondValue == resultEquality) {
+                    System.out.println(oneValue + " + " + secondValue + " = " + resultEquality);
                     return;
                 }
             }
 
         }
-
         System.out.println("Решений нет");
-
     }
     static int getValueInsteadOfQuestion(String value, int index) {
         String count = Integer.toString(index);
