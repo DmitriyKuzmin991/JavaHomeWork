@@ -1,0 +1,56 @@
+апр. 21, 2023 10:57:34 PM org.example.HomeWorkTwo.HomeWorkTwo sortBubbleWithLog
+INFO: Change value 8 on 7
+апр. 21, 2023 10:57:34 PM org.example.HomeWorkTwo.HomeWorkTwo sortBubbleWithLog
+INFO: Change value 8 on 6
+апр. 21, 2023 10:57:34 PM org.example.HomeWorkTwo.HomeWorkTwo sortBubbleWithLog
+INFO: Change value 8 on 5
+апр. 21, 2023 10:57:34 PM org.example.HomeWorkTwo.HomeWorkTwo sortBubbleWithLog
+INFO: Change value 8 on 4
+апр. 21, 2023 10:57:34 PM org.example.HomeWorkTwo.HomeWorkTwo sortBubbleWithLog
+INFO: Change value 8 on 3
+апр. 21, 2023 10:57:34 PM org.example.HomeWorkTwo.HomeWorkTwo sortBubbleWithLog
+INFO: Change value 8 on 2
+апр. 21, 2023 10:57:34 PM org.example.HomeWorkTwo.HomeWorkTwo sortBubbleWithLog
+INFO: Change value 8 on 1
+апр. 21, 2023 10:57:34 PM org.example.HomeWorkTwo.HomeWorkTwo sortBubbleWithLog
+INFO: Change value 7 on 6
+апр. 21, 2023 10:57:34 PM org.example.HomeWorkTwo.HomeWorkTwo sortBubbleWithLog
+INFO: Change value 7 on 5
+апр. 21, 2023 10:57:34 PM org.example.HomeWorkTwo.HomeWorkTwo sortBubbleWithLog
+INFO: Change value 7 on 4
+апр. 21, 2023 10:57:34 PM org.example.HomeWorkTwo.HomeWorkTwo sortBubbleWithLog
+INFO: Change value 7 on 3
+апр. 21, 2023 10:57:34 PM org.example.HomeWorkTwo.HomeWorkTwo sortBubbleWithLog
+INFO: Change value 7 on 2
+апр. 21, 2023 10:57:34 PM org.example.HomeWorkTwo.HomeWorkTwo sortBubbleWithLog
+INFO: Change value 7 on 1
+апр. 21, 2023 10:57:34 PM org.example.HomeWorkTwo.HomeWorkTwo sortBubbleWithLog
+INFO: Change value 6 on 5
+апр. 21, 2023 10:57:34 PM org.example.HomeWorkTwo.HomeWorkTwo sortBubbleWithLog
+INFO: Change value 6 on 4
+апр. 21, 2023 10:57:34 PM org.example.HomeWorkTwo.HomeWorkTwo sortBubbleWithLog
+INFO: Change value 6 on 3
+апр. 21, 2023 10:57:34 PM org.example.HomeWorkTwo.HomeWorkTwo sortBubbleWithLog
+INFO: Change value 6 on 2
+апр. 21, 2023 10:57:34 PM org.example.HomeWorkTwo.HomeWorkTwo sortBubbleWithLog
+INFO: Change value 6 on 1
+апр. 21, 2023 10:57:34 PM org.example.HomeWorkTwo.HomeWorkTwo sortBubbleWithLog
+INFO: Change value 5 on 4
+апр. 21, 2023 10:57:34 PM org.example.HomeWorkTwo.HomeWorkTwo sortBubbleWithLog
+INFO: Change value 5 on 3
+апр. 21, 2023 10:57:34 PM org.example.HomeWorkTwo.HomeWorkTwo sortBubbleWithLog
+INFO: Change value 5 on 2
+апр. 21, 2023 10:57:34 PM org.example.HomeWorkTwo.HomeWorkTwo sortBubbleWithLog
+INFO: Change value 5 on 1
+апр. 21, 2023 10:57:34 PM org.example.HomeWorkTwo.HomeWorkTwo sortBubbleWithLog
+INFO: Change value 4 on 3
+апр. 21, 2023 10:57:34 PM org.example.HomeWorkTwo.HomeWorkTwo sortBubbleWithLog
+INFO: Change value 4 on 2
+апр. 21, 2023 10:57:34 PM org.example.HomeWorkTwo.HomeWorkTwo sortBubbleWithLog
+INFO: Change value 4 on 1
+апр. 21, 2023 10:57:34 PM org.example.HomeWorkTwo.HomeWorkTwo sortBubbleWithLog
+INFO: Change value 3 on 2
+апр. 21, 2023 10:57:34 PM org.example.HomeWorkTwo.HomeWorkTwo sortBubbleWithLog
+INFO: Change value 3 on 1
+апр. 21, 2023 10:57:34 PM org.example.HomeWorkTwo.HomeWorkTwo sortBubbleWithLog
+INFO: Change value 2 on 1
