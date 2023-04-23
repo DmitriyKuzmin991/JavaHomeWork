@@ -1,26 +1,37 @@
 package org.example;
 
-import org.example.HomeWorkTwo.HomeWorkTwo;
 
-import java.io.IOException;
-import java.util.Arrays;
+import org.example.HomeWorkThree.HomeWorkThree;
+
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
+//        List<Integer> list = HomeWorkThree.createIntegerList(20);
+//        System.out.println(list);
+//        HomeWorkThree.removeOddNumber(list);
+//        System.out.println(list);
+//        System.out.println(HomeWorkThree.findMinFromList(list));
+//        System.out.println(HomeWorkThree.findMaxFromList(list));
+//        System.out.println(HomeWorkThree.findAvgFromList(list));
+        List<String> planets = HomeWorkThree.crateListOfPlanet(10);
+        System.out.println(planets);
+        var countOfPlanets = HomeWorkThree.countPlanetOnList(planets);
+        System.out.println(countOfPlanets);
 
-        String resultJson = HomeWorkTwo.parseJson("text.json");
-        String resultString = HomeWorkTwo.parseString(resultJson);
-        System.out.println(resultString);
-        //String pathToFile = "text2.txt";
-       // HomeWorkTwo.writeToFile(resultString,pathToFile);
-//        int[] arr = {8,7,6,5,4,3,2,1};
-//        int[] res;
-//        res = HomeWorkTwo.sortBubbleWithLog(arr);
-//        System.out.println(Arrays.toString(res));
 
-        }
+
+
 
     }
 
+}
+//    Пусть дан произвольный список целых чисел, удалить из него четные числа
+//    Задан целочисленный список ArrayList. Найти минимальное, максимальное и
+//    среднее арифметическое из этого списка. Collections.max()
+//        Заполнить список названиями планет Солнечной системы в произвольном
+//        порядке с повторениями. Вывести название каждой планеты и количество его повторений в списке.
+//        *Реализовать алгоритм сортировки слиянием
 
 
 
