@@ -1,37 +1,44 @@
 package org.example;
 
 
+import org.example.HomeWorkFour.HomeWorkFour;
+import org.example.HomeWorkFour.MyQueue;
+import org.example.HomeWorkFour.MyQueueBasedOnArray;
 import org.example.HomeWorkThree.HomeWorkThree;
 
+import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-//        List<Integer> list = HomeWorkThree.createIntegerList(20);
-//        System.out.println(list);
-//        HomeWorkThree.removeOddNumber(list);
-//        System.out.println(list);
-//        System.out.println(HomeWorkThree.findMinFromList(list));
-//        System.out.println(HomeWorkThree.findMaxFromList(list));
-//        System.out.println(HomeWorkThree.findAvgFromList(list));
-        List<String> planets = HomeWorkThree.crateListOfPlanet(10);
-        System.out.println(planets);
-        var countOfPlanets = HomeWorkThree.countPlanetOnList(planets);
-        System.out.println(countOfPlanets);
-
-
-
-
-
+//        LinkedList<String> list = new LinkedList<>(Arrays.asList("Vasya","Petya","Dima","John"));
+//        System.out.println(HomeWorkFour.reverseLinkedList(list));
+//        MyQueue<String> queue = new MyQueue<>();
+//        queue.enqueue("one");
+//        queue.enqueue("two");
+//        queue.enqueue("three");
+//        System.out.println(queue.first());
+//        System.out.println(queue.dequeue());
+//        System.out.println(queue.dequeue());
+//        System.out.println(queue.dequeue());
+//        int sumList = HomeWorkFour.sumValueLinkedList(List.of(1,2,3,4,5,6,7,8));
+//        System.out.println(sumList);
+//        MyQueueBasedOnArray queue = new MyQueueBasedOnArray(10);
+//        queue.enqueue(1);
+//        queue.enqueue(2);
+//        queue.enqueue(3);
+//        queue.enqueue(14);
+//        queue.enqueue(51);
+//        queue.print();
+//        System.out.println(queue.getSize());
+//        System.out.println(queue.first());
+//        queue.print();
+//        System.out.println(queue.dequeue());
+//        queue.print();
     }
-
 }
-//    Пусть дан произвольный список целых чисел, удалить из него четные числа
-//    Задан целочисленный список ArrayList. Найти минимальное, максимальное и
-//    среднее арифметическое из этого списка. Collections.max()
-//        Заполнить список названиями планет Солнечной системы в произвольном
-//        порядке с повторениями. Вывести название каждой планеты и количество его повторений в списке.
-//        *Реализовать алгоритм сортировки слиянием
+
 
 
 
